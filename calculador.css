@@ -1,0 +1,87 @@
+.boton{
+    display: block;
+    height: 7rem;
+    width: 7rem;
+    background-color: transparent;
+    border:solid 0.45rem black;
+    border-radius: 1rem;
+}
+.imagen{
+    display: block;
+    margin: 0px auto;
+    background-image:url("assets/calculadora_1.jpg");
+    background-repeat: no-repeat;
+    height: 50rem;
+    width: auto;
+}
+.instrucciones{
+    position: absolute;
+    float:right;
+    left: 35rem;
+    top: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+.out{
+    position:absolute;
+    top: 2.5rem;
+    left: 1.6rem;
+    background-color: transparent;
+    height: 7.3rem;
+    width: 31rem;
+    font-size: 5.8rem;
+    overflow: hidden;
+    text-align: right;
+    border:solid 0.45rem black;
+    border-radius: 1rem;
+}
+
+
+
+#siete, #ocho, #nueve, #divicion{
+    position:absolute;
+    top: 11.5rem;
+}
+#siete,#cuatro, #uno, #cero{
+    position: absolute;
+    left: 2rem;
+}
+
+#ocho, #cinco, #dos, #punto{
+    position: absolute;
+    left: 9.75rem;
+}
+#nueve, #seis, #tres, #igual{
+    position: absolute;
+    left: 17.4rem;
+}
+#divicion, #multiplicacion, #resta, #suma{
+    position: absolute;
+    left: 25.2rem;
+}
+#cuatro, #cinco, #seis, #multiplicacion{
+    position:absolute;
+    top: 19.25rem;
+}
+#uno, #dos, #tres, #resta{
+    position:absolute;
+    top: 26.9rem;
+}
+#cero, #punto, #igual, #suma{
+    position:absolute;
+    top: 34.6rem;
+}
+#siete, #ocho, #nueve, #cuatro, #cinco, #seis, #uno, #dos, #tres, #cero{
+    background-color:rgb(128,128,128)
+}
+#divicion, #multiplicacion, #resta, #suma, #punto{
+    background-color:rgb(198,198,198)
+}
+#igual{
+    background-color: brown;
+}
+#siete, #ocho, #nueve, #cuatro, #cinco, #seis, #uno, #dos, #tres, #cero, #divicion, #multiplicacion, #resta, #suma, #punto, #igual{
+    font-size: 6rem;
+    color:black;
+}
